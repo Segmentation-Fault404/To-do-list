@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+}
+#todo{
+    background-color: white;
+    padding: 15px 32px;
+    border-color: lightgray;
+    text-align: justify;
+    -moz-text-size-adjust: auto;
+    cursor: pointer;
+}
+#tododate{
+    background-color: white;
+    padding: 15px 10px;
+    border-color: lightgray;
+    text-align: justify;
+    -moz-text-size-adjust: auto;
+    cursor: pointer;
+}
+#todo:focus-within, #tododate:focus-within{
+    border-color: green;
+}
+#todo:hover, #tododate:hover{
+    border-color: green;
+}
+.submit{
+    background-color: green;
+    padding: 13px 32px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: medium;
+    position: absolute;
+    left: 422px;
+}
+.submit:hover{
+    background-color: lawngreen;
+}
+.submit:active{
+    padding: 8px 27px;
+}
+.delete{
+    background-color:darkred;
+    padding: 13px 32px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: medium;
+    position: absolute;
+    left: 423px;
+}
+.delete:hover{
+    background-color: red;
+}
+.delete:active{
+    padding: 8px 27px;
+}
+.clear{
+    background-color:peachpuff;
+    padding: 13px 32px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: medium;
+    position: absolute;
+    left: 550px;
+}
+.clear:hover{
+    background-color: lightgrey;
+}
+.clear:active{
+    padding: 8px 27px;
+}
